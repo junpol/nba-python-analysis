@@ -1,24 +1,32 @@
-# nba-python-analysis
-This project explores how different NBA player stats relate to each other using raw CSV data and a manually coded correlation function (Pearson coefficient). I chose not to use libraries like NumPy or Pandas to reinforce my understanding of core Python, algorithm design, and real-world data cleaning.
+# 🏀 NBA Stats Correlation Analysis (Pure Python)
+**Exploring relationships between NBA player stats—built from scratch without Pandas/NumPy to master core Python, data cleaning, and algorithm design!**  
+## What Does This Project Do?
+1. This project analyzes how different NBA metrics correlate using **raw CSV data**  and a **manually implemented Pearson correlation coefficient**
+2. Loads & cleans 2024 NBA season stats from a CSV (handling missing/outlier values).
+3. **Calculates correlations**  between:
+- 3P% and PPG | Age and MPG | FTA and FT%
+- **Validates results** with manual test cases against statistical theory.
 
-# What It Does:
- - Loads raw 2024 NBA season stats from a CSV file
- - Cleans and parses numeric data from key columns
+**Example!:**
 
-# Calculates the correlation between:
-- 3-Point Percentage (3P%) and Points Per Game (PPG)
-- Age (AGE) and Minutes Per Game (MPG)
-- Free Throw Attempts (FTA) and Free Throw Percentage (FT%)
+"Players with higher free throw attempts (FTA) tend to have slightly lower FT%, possibly due to pressure or fatigue."
 
-Includes manual test cases to validate correlation logic
+## 🛠️ Why I Built This
+1. **Skill Depth**: Avoided Pandas/NumPy to strengthen:
+2. **Data wrangling** (parsing raw CSVs, type handling)
+3. **Algorithm design** (Pearson coefficient from math formulas)
+4. **Testing rigor** (edge cases for correlation logic)
+5. **Showcase**: Clean, modular Python with real-world data!
 
-# Why I Built This!
-- I wanted to sharpen my data analysis and core algorithm skills by building everything from the ground up — no shortcuts. This project reflects:
-- My comfort with intermediate-level Python (functions, loops, control flow)
-- My ability to structure clean, testable code
-- My interest in data-driven storytelling (especially through sports)
+# 🚀 How to Run
+bash
+git clone https://github.com/junpol/nba-python-analysis.git  
+cd nba-python-analysis  
+python3 nba_analysis.py  
+(CSV file included in /data)
 
-
-
-
+🔍 Key Takeaways
+✔ Core Python > Libraries for foundational skills
+✔ Data storytelling through sports analytics
+✔ Test-driven development with manual validations
 
