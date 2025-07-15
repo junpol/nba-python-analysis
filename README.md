@@ -24,9 +24,3 @@ git clone https://github.com/junpol/nba-python-analysis.git
 cd nba-python-analysis  
 python3 nba_analysis.py  
 (CSV file included in /data)
-
-🔍 Key Takeaways
-✔ Core Python > Libraries for foundational skills
-✔ Data storytelling through sports analytics
-✔ Test-driven development with manual validations
-
