@@ -1,5 +1,5 @@
 # 🏀 NBA Stats Correlation Analysis
-**Exploring relationships between NBA player stats—built from scratch without Pandas/NumPy to master core Python, data cleaning, and algorithm design!**  
+**Exploring relationships between NBA player stats, built from scratch without Pandas/NumPy to master core Python, data cleaning, and algorithm design!**  
 ## What Does This Project Do?
 1. This project analyzes how different NBA metrics correlate using **raw CSV data**  and a **manually implemented Pearson correlation coefficient**
 2. Loads & cleans 2024 NBA season stats from a CSV (handling missing/outlier values).
